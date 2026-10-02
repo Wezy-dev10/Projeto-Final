@@ -1,0 +1,60 @@
+/* Página inteira */
+body {
+  font-family: Arial, sans-serif;  /* tipo de letra */
+  background-color: #f2f2f2;       /* cor de fundo */
+  margin: 20px;                    /* espaço em volta da página */
+  color: #333333;                  /* cor do texto */
+}
+
+/* Títulos */
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+/* Caixas de texto */
+input {
+  padding: 8px;                    /* espaço dentro da caixa */
+  margin: 5px 5px 5px 0;           /* espaço fora da caixa */
+  border: 1px solid #999999;       /* borda */
+  font-size: 14px;
+}
+
+/* Botões */
+button {
+  padding: 8px 14px;
+  border: none;
+  background-color: #3498db;       /* azul */
+  color: white;
+  font-size: 14px;
+  cursor: pointer;                 /* mãozinha ao passar o mouse */
+}
+
+/* Botão de excluir fica vermelho */
+.excluir {
+  background-color: #e74c3c;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;       /* junta as bordas */
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #2c3e50;       /* cabeçalho escuro */
+  color: white;
+}
